@@ -94,21 +94,24 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "ua": "Mozilla/5.0 (Windows NT 6.4;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.0.0 Safari/537.36 Edge/55.0.0.10122",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12) AppleWebKit/604.1.28 (KHTML, like Gecko) Version/11.1.5 Safari/604.1.28",
     "browser": {
-      "name": "Edge",
-      "version": "55.0.0.10122",
-      "major": "55"
+      "name": "Safari",
+      "version": "11.1.5",
+      "major": "11"
     },
     "engine": {
-      "name": "EdgeHTML",
-      "version": "55.0.0.10122"
+      "name": "WebKit",
+      "version": "604.1.28"
     },
     "os": {
-      "name": "Windows",
-      "version": "10"
+      "name": "Mac OS",
+      "version": "10.12"
     },
-    "device": {},
+    "device": {
+      "vendor": "Apple",
+      "model": "Macintosh"
+    },
     "cpu": {}
   },
   "code": 200
