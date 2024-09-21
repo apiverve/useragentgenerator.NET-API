@@ -39,6 +39,12 @@ public class os
 
 public class device
 {
+    [JsonProperty("vendor")]
+    public string vendor { get; set; }
+
+    [JsonProperty("model")]
+    public string model { get; set; }
+
 }
 
 public class cpu
